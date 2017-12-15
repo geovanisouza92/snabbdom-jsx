@@ -5,7 +5,8 @@
   "main": "src/index.tsx",
   "scripts": {
     "dev": "tsc --watch",
-    "run-script": "node dist/index.js"
+    "run-script": "node dist/index.js",
+    "build": "webpack"
   },
   "dependencies": {
     "snabbdom": "^0.7.0",
@@ -14,6 +15,8 @@
   },
   "devDependencies": {
     "@types/node": "^8.5.1",
-    "typescript": "^2.6.2"
+    "awesome-typescript-loader": "^3.4.1",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
   }
 }
