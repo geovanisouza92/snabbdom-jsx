@@ -1,0 +1,19 @@
+{
+  "name": "snabbdom-jsx",
+  "version": "1.0.0",
+  "description": "Using Snabbdom as JSX template",
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "tsc --watch",
+    "run-script": "node dist/index.js"
+  },
+  "dependencies": {
+    "snabbdom": "^0.7.0",
+    "snabbdom-pragma": "^2.6.0",
+    "snabbdom-to-html": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.1",
+    "typescript": "^2.6.2"
+  }
+}
